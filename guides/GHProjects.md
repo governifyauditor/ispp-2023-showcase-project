@@ -5,11 +5,11 @@ First you need to enter to your GitHub repository and go to the `Projects` tab. 
 
 Once you are in, you will need to click `New project` on the right side of the screen.
 
-![image](https://user-images.githubusercontent.com/67601636/220158053-ed7797a0-099a-4ac7-b0d3-08a592bd9d8a.png)
+![Create project](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/Projects1.png?raw=true)
 
 Then select `Board` option, rename the project as you wish and click on `Create`.
 
-![image](https://user-images.githubusercontent.com/67601636/220158356-d37bf2ca-a3dc-461c-9be3-eec64747681d.png)
+![Create column](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/Projects2.png?raw=true)
 
 ## Add an "In Review" column to your project
 
@@ -19,4 +19,4 @@ It is vital that there exists 3 columns named exactly as follows: `In Progress`,
 
 The project should look like this:
 
-![image](https://user-images.githubusercontent.com/67601636/220158807-f543f1e1-620d-43c0-9263-bd8924709a42.png)
+![Project columns](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/Projects3.png?raw=true)
