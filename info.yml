@@ -1,0 +1,15 @@
+project:
+  name: 'ISPP 2023'
+  owner: ISPP
+  teamId: L0
+  identities: {}
+  notifications: {}
+  members:
+    member1:
+      name: Test
+      surname: User
+      githubUsername: governifyauditor
+    member2:
+      name: 'Test 2'
+      surname: 'User 2'
+      githubUsername: MaToSan24
