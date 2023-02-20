@@ -5,19 +5,18 @@ First you need to enter to your GitHub repository and go to the `Projects` tab. 
 
 Once you are in, you will need to click `New project` on the right side of the screen.
 
-![Create project](https://github.com/governifyauditor/ispp-showcase-project/blob/main/img/projects1.PNG?raw=true)
+![image](https://user-images.githubusercontent.com/67601636/220158053-ed7797a0-099a-4ac7-b0d3-08a592bd9d8a.png)
 
-Choose a name and a description for your project and click on `Create project` without selecting a template. 
+Then select `Board` option, rename the project as you wish and click on `Create`.
 
-## Add columns to your project
-We will create 4 columns to store the issues and define a workflow. Click on `Add column` to enter the form.
+![image](https://user-images.githubusercontent.com/67601636/220158356-d37bf2ca-a3dc-461c-9be3-eec64747681d.png)
 
-![Create column](https://github.com/governifyauditor/ispp-showcase-project/blob/main/img/projects2.PNG?raw=true)
+## Add an "In Review" column to your project
 
-The four columns must be called `Backlog`, `In progress`, `In review` and `Done`. We will not be using any automation.
+Once created, click on the `+` button to add a new column and name it "In Review". Optionally, you can place it right between the "In Progress" and the "Done" columns. 
+
+It is vital that there exists 3 columns named exactly as follows: `In Progress`, `In Review` and `Done`. Otherwise, data will not be gathered.
 
 The project should look like this:
 
-![Project columns](https://github.com/governifyauditor/ispp-showcase-project/blob/main/img/projects3.PNG?raw=true)
-
-The columns names are mandatory and case sensitive so make sure again they are called exactly as said. If not, you should delete the column and recreate it again.
+![image](https://user-images.githubusercontent.com/67601636/220158807-f543f1e1-620d-43c0-9263-bd8924709a42.png)
