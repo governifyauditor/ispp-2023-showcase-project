@@ -44,17 +44,17 @@ Follow this steps:
 In order to see how the process works we are going to explain each different stage to complete a successful iteration of one feature using golden flow.
 
 ### New branch - In progress issues correlation
-1. Create a card in the "Backlog" column on Github Projects by pressing the button `+` on the top part of the column, entering a title for them and then clicking on the `Add` button. After it, convert it to issue by opening the menu, clicking on the three dots button on the right top corner of the card, and then clicking on "Convert to issue".
-2. Then, move the card to the "In progress" column.
+1. Create a card in the "Todo" column on Github Projects kanban and convert it to issue.
+2. Move the card to the "In progress" column.
 3. Create a branch including in the name the number of the issue you've just created on step 1 (Check image below to see its location and the second image showing a branch name example based on the Issue number).
 
 `Issue number location:`
 
-![Issue number](https://github.com/governifyauditor/ispp-showcase-project/blob/main/img/golden21.PNG?raw=true)
+![Issue number](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden21.PNG?raw=true)
 
 `GitHub Branch name:`
 
-![Github branch name](https://github.com/governifyauditor/ispp-showcase-project/blob/main/img/golden22.PNG?raw=true)
+![Github branch name](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden22.PNG?raw=true)
 
 ### Open PR - In review issues correlation
 4. Modify the branch adding some changes to it. 
@@ -62,16 +62,19 @@ In order to see how the process works we are going to explain each different sta
 6. Open a PR from the created branch to main.
 
 ### Merge PR - Done issues correlation
-7. Review the PR as a team. Don't rush it (10 minutes) or it won't appear in the system.
+7. Review the PR as a team. Don't rush it (1 hour) or it won't appear in the system.
 8. Move the issue to the `Done` column.
 9. Accept and merge the PR.
 
 ## Team practices
-There are 5 TPs (Team practices) being audited:
-- In progress issues - New branch: At least 75% of in progress issues must match creation of a branch by the whole team.
-- In review issues - Open PR: At least 75% of in review issues must match creation of a PR by the whole team.
-- Done issues - Merge PR: At least 75% of done issues must match the merge of a PR by the whole team.
-- Heoroku release - Merge PR: At least 75% of releases must match a the merge of a PR into master within ten minutes by the whole team.
-- Travis successful builds: At least 80% of Travis builds should pass correctly by the whole team.
+There are 7 TPs (Team practices) being audited:
 
-Every ten minutes the TPs are computed and verified to check they are being fulfilled.
+- Correlation in progress issues and branches - At least 75% of in progress issues must match creation of a branch.
+- Correlation in review issues and open PRs - At least 75% of in review issues must match creation of a PR.
+- Correlation done issues and merged PRs - At least 75% of done issues must match the merge of a PR.
+- In progress issues - The amount of issues moved to the in progress column must be less than 1 every hour.
+- Done issues - The amount of issues in the done column must be greater than 1 every week.
+- PRs with positive reviews - The amount of merged pull requests with positive reviews must be greater than 1 every week.
+- Comments in PRs - The amount of comments in every pull requests must be greater than 1 every week by member.
+
+Every hour, the TPs are computed and verified to check they are being fulfilled.
