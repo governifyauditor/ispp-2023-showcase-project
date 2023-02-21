@@ -50,11 +50,11 @@ In order to see how the process works we are going to explain each different sta
 
 `Issue number location:`
 
-![Issue number](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden21.PNG?raw=true)
+![Issue number](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden21.png?raw=true)
 
 `GitHub Branch name:`
 
-![Github branch name](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden22.PNG?raw=true)
+![Github branch name](https://github.com/governifyauditor/ispp-2023-showcase-project/blob/main/img/golden22.png?raw=true)
 
 ### Open PR - In review issues correlation
 4. Modify the branch adding some changes to it. 
