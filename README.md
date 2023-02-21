@@ -69,12 +69,13 @@ In order to see how the process works we are going to explain each different sta
 ## Team practices
 There are 7 TPs (Team practices) being audited:
 
-- Correlation in progress issues and branches - At least 75% of in progress issues must match creation of a branch.
-- Correlation in review issues and open PRs - At least 75% of in review issues must match creation of a PR.
-- Correlation done issues and merged PRs - At least 75% of done issues must match the merge of a PR.
-- In progress issues - The amount of issues moved to the in progress column must be less than 1 every hour.
-- Done issues - The amount of issues in the done column must be greater than 1 every week.
-- PRs with positive reviews - The amount of merged pull requests with positive reviews must be greater than 1 every week.
-- Comments in PRs - The amount of comments in every pull requests must be greater than 1 every week by member.
+
+- Correlation in progress issues and branches - At least 75% of in progress issues must match creation of a branch (Per team every day).
+- Correlation in review issues and open PRs - At least 75% of in review issues must match creation of a PR (Per team every day).
+- Correlation done issues and merged PRs - At least 75% of done issues must match the merge of a PR (Per team every day).
+- PRs with positive reviews - Ar least one positive review in each merged pull requests (Per team every week).
+- In progress issues - The amount of issue in the "In Progress" column must be equal or less than 1 (Per member, checked every hour). 
+- Done issues - The amount of issues in the "Done" column must be greater than 1 every (Per member, checked every week). 
+- Comments in PRs - The amount of comments in every pull requests must be greater than 1 (Per member, checked every week).
 
 Every hour, the TPs are computed and verified to check they are being fulfilled.
