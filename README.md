@@ -79,3 +79,7 @@ There are 7 TPs (Team practices) being audited:
 - Comments in PRs - The amount of comments in every pull requests must be greater than 1 (Per member, every week).
 
 Every hour, the TPs are computed and verified to check they are being fulfilled.
+
+## Troubleshooting
+
+In case you have problems or doubts setting up the project, please connect to the [Governify Community Chanel](https://app.gitter.im/#/room/#governify_community:gitter.im) to get help from the Governify Team.
